@@ -1,0 +1,4 @@
+# No NVIDIA GPU? Run:  docker compose -f docker-compose.yml -f docker-compose.cpu.yml up -d
+services:
+  ollama:
+    deploy: !reset {}
